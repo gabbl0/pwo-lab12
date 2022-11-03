@@ -11,7 +11,7 @@ public class SequenceTools {
 
         int i = from, stop = to, step = from > to ? -1 : 1;
         String terms = "";
-
+ 
         while (true) {
             terms += sg.getTerm(i) + sep;
             if (i == stop)
